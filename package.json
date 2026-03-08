@@ -1,0 +1,82 @@
+{
+  "name": "ai-palm-reader-pwa",
+  "description": "AI Palm Reader – Tarot & Astrology Guidance App",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "date-fns": "^3.0.6",
+    "lucide-react": "^0.309.0",
+    "uuid": "^9.0.1",
+    "canvas-confetti": "^1.9.2",
+    "framer-motion": "^10.16.4",
+    "react-intersection-observer": "^9.5.3",
+    "react-hot-toast": "^2.4.1",
+    "react-swipeable": "^7.0.1",
+    "react-datepicker": "^6.2.0",
+    "react-select": "^5.8.0",
+    "react-dropzone": "^14.2.3",
+    "html2canvas": "^1.4.1",
+    "copy-to-clipboard": "^3.3.3",
+    "react-share": "^4.4.1",
+    "exifreader": "^4.16.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@types/uuid": "^9.0.7",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.54.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.6",
+    "vite": "^5.0.0",
+    "vite-plugin-pwa": "^0.17.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [
+    "pwa",
+    "react",
+    "ai",
+    "astrology",
+    "tarot",
+    "palm-reading",
+    "spiritual",
+    "mobile-first"
+  ],
+  "author": "AI Palm Reader Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/ai-palm-reader-pwa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/ai-palm-reader-pwa/issues"
+  },
+  "homepage": "https://username.github.io/ai-palm-reader-pwa"
+}
